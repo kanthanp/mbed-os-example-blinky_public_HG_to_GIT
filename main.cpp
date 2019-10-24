@@ -19,9 +19,10 @@ int main()
 
     int count = 0;
     while (true) {
-        // Blink LED and wait 0.5 seconds
+        // Blink LED and wait 2 seconds
         led1 = !led1;
         thread_sleep_for(SLEEP_TIME);
+        printf("LED2 is blinking every 2 seconds!! \n");
 
         if ((0 == count) || (PRINT_AFTER_N_LOOPS == count)) {
             // Following the main thread wait, report on the current system status
