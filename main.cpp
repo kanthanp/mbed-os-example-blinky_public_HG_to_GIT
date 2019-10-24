@@ -7,7 +7,7 @@
 #include "platform/mbed_thread.h"
 #include "stats_report.h"
 
-DigitalOut led1(LED2);
+DigitalOut led1(LED3);
 
 #define SLEEP_TIME                  2000 // (msec)
 #define PRINT_AFTER_N_LOOPS         20
@@ -22,7 +22,7 @@ int main()
         // Blink LED and wait 2 seconds
         led1 = !led1;
         thread_sleep_for(SLEEP_TIME);
-        printf("LED2 is blinking every 2 seconds!! \n");
+        printf("LED3 is blinking every 2 seconds!! \n");
 
         if ((0 == count) || (PRINT_AFTER_N_LOOPS == count)) {
             // Following the main thread wait, report on the current system status
