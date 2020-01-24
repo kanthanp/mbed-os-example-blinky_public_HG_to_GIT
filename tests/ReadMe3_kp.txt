@@ -1,0 +1,1 @@
+Testing SCM with Theia 0.12.0 build
