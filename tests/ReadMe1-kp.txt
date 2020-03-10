@@ -1,1 +1,0 @@
-KP: Added new file for testing SCM Mercurial Merge operation
