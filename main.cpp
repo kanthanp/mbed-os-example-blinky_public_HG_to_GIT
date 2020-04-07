@@ -9,7 +9,7 @@
 
 DigitalOut led1(LED_GREEN);
 
-#define SLEEP_TIME                  3000 // (msec)
+#define SLEEP_TIME                  1000 // (msec)
 #define PRINT_AFTER_N_LOOPS         20
 
 // main() runs in its own thread in the OS
@@ -19,7 +19,7 @@ int main()
 
     int count = 0;
     while (true) {
-        // Blink LED and wait 3 seconds
+        // Blink LED and wait 1 second
         led1 = !led1;
         thread_sleep_for(SLEEP_TIME);
         printf("Green LED is blinking!! \n");
