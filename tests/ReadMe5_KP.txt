@@ -1,0 +1,1 @@
+Testing commit operation with Mbed Studio 1.0.0 RC1 build
