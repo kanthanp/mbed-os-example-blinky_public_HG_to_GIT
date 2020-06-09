@@ -1,4 +1,4 @@
-Testing: SCM Mercurial Commit & Push operations
-MS Version: 1.0.0 RC2
+Testing: SCM Mercurial Pull, Commit & Push operations
+MS Version: 1.0.0 RC4
 Tester: Kanthan
-Date: 22/05/20
+Date: 09/06/20
