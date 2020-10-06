@@ -1,3 +1,6 @@
 *BUILD*
 *?mbed*
 *mbed-os*
+BUILD
+?mbed
+mbed-os
