@@ -1,1 +1,1 @@
-Testing commit operation with Mbed Studio 1.0.0 RC1 build
+Testing with Mbed Studio 1.3.0 RC1 build
